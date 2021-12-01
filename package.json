@@ -12,6 +12,7 @@
     "web-vitals": "^1.1.1",
     "web3": "^1.6.0"
   },
+  "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
